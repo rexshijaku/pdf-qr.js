@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/pdf-qr */ \"./src/pdf-qr.js\");\n/* harmony import */ var _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__);\n\r\n  // ES6\r\n  // ES6\r\nwindow.PDF_QR_JS = _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__.PDF_QR_JS;\r\n\r\n_src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__.PDF_JS.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.js';\n\n//# sourceURL=webpack://test/./app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/pdf-qr */ \"./src/pdf-qr.js\");\n/* harmony import */ var _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__);\n\r\n  // ES6\r\n  // ES6\r\nwindow.PDF_QR_JS = _src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__.PDF_QR_JS;\r\n\r\n_src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__.PDF_JS.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${_src_pdf_qr__WEBPACK_IMPORTED_MODULE_0__.PDF_JS.version}/pdf.worker.js`;\n\n//# sourceURL=webpack://test/./app.js?");
 
 /***/ }),
 
