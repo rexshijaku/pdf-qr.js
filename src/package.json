@@ -1,0 +1,26 @@
+{
+  "name": "pdf-qr",
+  "version": "1.0.0",
+  "description": "PDF QR Code scanner entirely written in JavaScript.",
+  "main": "pdf-qr.js",
+  "keywords": [
+    "pdf-qr",
+    "pdf",
+    "qr",
+    "qr code reader",
+    "qr scanner",
+    "pdf qr reader",
+    "pdf qr scanner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexshijaku/pdf-qr.js"
+  },
+  "author": "Rexhep Shijaku",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "jsqr": "^1.4.0",
+    "pdfjs-dist": "^2.9.359"
+  }
+}

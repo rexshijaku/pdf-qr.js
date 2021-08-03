@@ -2,7 +2,7 @@
 PDF QR Code scanner entirely written in JavaScript.
 
 ### Features
-Full-document scan
+Full-document scan <br />
 Single page scan
 
 ### Demo
@@ -52,7 +52,7 @@ PDF_JS.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/
 ### Usage
 
 #### Set up the optimal configuration
-    The efficiency and the accuracy of this library totally depends on the given configuration. By default it uses a configuration which worked best during development and testing. You should modify and optimize this configuration to fit to your QR Code sizes. Use any of provided demos above to construct configuration parameters or write them manually. There are four steps you need to undertake to decode a pdf:
+The efficiency and the accuracy of this library totally depends on the given configuration. By default it uses a configuration which worked best during development and testing. You should modify and optimize this configuration to fit to your QR Code sizes. Use any of provided demos above to construct configuration parameters or write them manually. There are four steps you need to undertake to decode a pdf:
 ##### JavaScript code:
 ### 
 ```js
