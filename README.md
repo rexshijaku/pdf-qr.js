@@ -8,7 +8,7 @@ Single page scan
 ### Demo
 
 ##### Online demo
-Live demo will be available <a href="https://github.com/rexshijaku/pdf-qr.js" target="_blank">here</a>.
+Live demo is available <a href="https://rexshijaku.github.io/pdf-qr.js/" target="_blank">here</a>.
 
 ##### Web server
 Clone or download this repository and run demo/ws_demo.html. This demo uses two files: (1) dist/pdf-qr.js and (2) worker file pdf.worker.min.js. Note that the pdf.worker.min.js should be placed in the projects output folder. You must run this ws_demo.html using a web server in order to take the advantage of http:// or https:// protocols to load workers, otherwise using file:// won't load the essential worker. If you don't have any web server installed, you may take a look at the alternative demo version.
