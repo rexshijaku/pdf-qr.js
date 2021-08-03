@@ -11,10 +11,10 @@ Single page scan
 Live demo will be available <a href="https://github.com/rexshijaku/pdf-qr.js" target="_blank">here</a>.
 
 ##### Web server
-Clone or download this repository and run demo/ws_demo.html. This demo uses two files: (1) dist/pdf-qr.js and (2) worker file (pdf.worker.min.js) which should be placed in the projects output folder. You must run this file (ws_demo.html) using a web server in order to take the advantage of http:// or https:// protocols to load workers, otherwise using file:// won't load the essential worker. If you don't have any web server installed, you may take a look at the alternative demo version.
+Clone or download this repository and run demo/ws_demo.html. This demo uses two files: (1) dist/pdf-qr.js and (2) worker file pdf.worker.min.js. Note that the pdf.worker.min.js should be placed in the projects output folder. You must run this ws_demo.html using a web server in order to take the advantage of http:// or https:// protocols to load workers, otherwise using file:// won't load the essential worker. If you don't have any web server installed, you may take a look at the alternative demo version.
 
 ##### Alternative
-After you clone this repository, on your local machine run demo/file_demo.html. This example uses minified versions of dependent libraries and its files. This offers you a version which can be tested with zero configurations compared to the previous one.
+After you clone this repository, on your local machine run (open on a browser) demo/file_demo.html. This example uses minified versions of dependent libraries and its files. This offers you a version which can be tested with zero configurations compared to the previous one.
 
 ### Get Started
 ##### Install by manual download:
@@ -190,6 +190,13 @@ The most important property of result object is *codes* property which stores al
     "success": true
 }
 ```
+
+### Contributions
+Feel free to contribute on development, testing or eventual bug reporting. I am personally not so much involved in front-end development, and I think that this project
+needs a better file organization, especially for making it more easy for others to use and contribute. I would also like to encourage someone to write tests, we hopefully may use <a href="https://github.com/cozmo/jsQR/tree/master/tests/end-to-end">this</a> folder to convert files in it to PDFs.
+
+### Testimonial
+This project is a Sister Project of <a href="https://github.com/rexshijaku/PDFBarcodeJS">PDFBarcodeJS</a>, and was initiated after <a href="https://github.com/rexshijaku/PDFBarcodeJS/issues/3">this</a> request.
 
 ### Support
 For general questions about PDF-QR.js, tweet at @rexshijaku or write me an email on rexhepshijaku@gmail.com.
