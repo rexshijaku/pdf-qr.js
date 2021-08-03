@@ -137,32 +137,32 @@ The most important property of result object is *codes* property which stores al
         "code_1",
         "code_2"
     ],
-        "codesByPage": [
+    "codesByPage": [
         1: ["code_1"],
         2: ["code_2"]
-],
+    ],
     "codesByPageAndVersion": [
         1: {
-        "6": ["code_1"]
-    },
-    2: {
-        "7": ["code_2"]
-    }
-],
+            "6": ["code_1"]
+        },
+        2: {
+            "7": ["code_2"]
+        }
+    ],
     "codesByVersion": [
         "6": [
-        "code_1"
-    ],
+            "code_1"
+        ],
         "7": [
-        "code_2"
-    ]
-],
+            "code_2"
+        ]
+    ],
     "codesDetailed": [{
-        "code": "code_1",
-        "version": "6",
-        "page": 1,
-        "scale": 1
-    },
+            "code": "code_1",
+            "version": "6",
+            "page": 1,
+            "scale": 1
+        },
         {
             "code": "code_2",
             "version": "7",
@@ -170,23 +170,23 @@ The most important property of result object is *codes* property which stores al
             "scale": 1
         }
     ],
-        "stats": {
+    "stats": {
         "totalOnScale": [
             3: 2
-    ]
+        ]
     },
     "statsByPage": [
         1: {
-        "totalOnScale": [
-            3: 1
-    ]
-    },
-    2: {
-        "totalOnScale": [
-            3: 1
-    ]
-    }
-],
+            "totalOnScale": [
+                3: 1
+            ]
+        },
+        2: {
+            "totalOnScale": [
+                3: 1
+            ]
+        }
+    ],
     "success": true
 }
 ```
